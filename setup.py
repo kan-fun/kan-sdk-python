@@ -13,5 +13,5 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     url="https://github.com/kan-fun/kan-python",
-    version="0.0.0.3",
+    version="0.0.1",
 )
