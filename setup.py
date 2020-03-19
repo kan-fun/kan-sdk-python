@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    author='Hongyu Cai',
+    author='kan',
     install_requires=[
         'requests',
     ],
