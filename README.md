@@ -7,6 +7,10 @@ pip install kan-sdk
 ```python
 import kan_sdk
 
-kan = kan_sdk.Client(ak, sk)
+# Get AccessKey and SecretKey from http://www.mlflow.org.cn/
+AccessKey = 'XXXXXX'
+SecretKey = 'XXXXXX'
+
+kan = kan_sdk.Client(AccessKey, SecretKey)
 kan.email(topic='topic', msg='msg')
 ```
